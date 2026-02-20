@@ -1,0 +1,16 @@
+Webcam/Dashcam → Frame Capture → Preprocessing →
+Multi-Algorithm Detection → Anomaly Scoring →
+Alert System + Web Dashboard
+
+dashcam-anomaly-detection/
+├── main.py                 # Main application entry point
+├── camera_module.py        # Camera capture module
+├── anomaly_detector.py     # Core detection algorithms
+├── alert_system.py         # Clip saving and alert logging
+├── anomaly_logger.py       # HUD overlay and score graph
+├── dashboard.py            # Flask web dashboard
+├── requirements.txt        # Python dependencies
+├── alerts/                 # Saved anomaly clips (auto-created)
+├── logs/                   # System logs (auto-created)
+├── models/                 # AI models directory
+└── docs/                   # Documentation and diagrams
